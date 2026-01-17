@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
@@ -19,7 +19,15 @@
     <div class="grid-container">
       <header class="menu" data-anime="suave">
         <nav>
-          <ul>
+          <button
+            class="font2-s-bold up"
+            data-menu="button"
+            aria-expanded="false"
+            aria-controls="menu"
+          >
+            Menu
+          </button>
+          <ul data-menu="list" id="menu">
             <li>
               <a class="font2-s-bold up" href="#animais">Animais</a>
             </li>
@@ -358,6 +366,27 @@
               na literatura contemporâneos.
             </p>
           </section>
+        </div>
+      </section>
+      <section class="grid-section numeros" data-anime="scroll" id="numeros">
+        <h1 class="font3-xl titulo">Números</h1>
+        <div class="numeros-grid">
+          <div class="numero-animal">
+            <h3 class="font3-l">Raposas</h3>
+            <span class="font2-l" data-numero>4874</span>
+          </div>
+          <div class="numero-animal">
+            <h3 class="font3-l">Esquilos</h3>
+            <span class="font2-l" data-numero>12843</span>
+          </div>
+          <div class="numero-animal">
+            <h3 class="font3-l">Ursos</h3>
+            <span class="font2-l" data-numero>286</span>
+          </div>
+          <div class="numero-animal">
+            <h3 class="font3-l">Lobos</h3>
+            <span class="font2-l" data-numero>5628</span>
+          </div>
         </div>
       </section>
       <section class="grid-section faq" data-anime="scroll" id="faq">

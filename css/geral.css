@@ -1,6 +1,7 @@
 /* Variáveis */
 :root {
   --c0: #faf6ed;
+  --c11: #353535;
   --c12: #222222;
   --p1: #ffbb55;
   --p2: #ee5544;
@@ -38,13 +39,18 @@ img {
   letter-spacing: 0.1em;
 }
 
-.font2-m {
+.font2-m,
+.font2-l {
   font-family: "IBM Plex Mono", monospace;
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.4;
   letter-spacing: 0.1em;
   color: var(--p2);
+}
+
+.font2-l {
+  font-size: 1.5rem;
 }
 
 .up {
@@ -56,6 +62,11 @@ img {
   font-size: 6rem;
   font-weight: 400;
   line-height: 1;
+}
+
+.font3-l {
+  font-family: "Playfair Display SC", Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
 }
 
 /* Body */
@@ -306,7 +317,7 @@ body {
 
 /* Media Query */
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   .font3-xl {
     font-size: 3rem;
   }
